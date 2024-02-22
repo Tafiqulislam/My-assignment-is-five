@@ -7,4 +7,12 @@ function buttonNext (){
     successSection.classList.remove('hidden');
 }
 
+function changeButtonColor() {
+    const button = document.getElementById('green'); 
 
+    button.style.backgroundColor = 'green';
+}
+
+const button = document.getElementById('green'); 
+
+button.addEventListener('click', changeButtonColor);
